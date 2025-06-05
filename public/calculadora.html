@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#14aa2f">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora - Eules Souza</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    
+
+    <main>
+        <div class="hero-section">
+            <h1>🧮 Calculadora</h1>
+            <p>Uma calculadora funcional desenvolvida em JavaScript</p>
+        </div>
+
+        <div class="calculator">
+            <input type="text" class="calculator-display" id="display" readonly>
+            <div class="calculator-buttons">
+                <button class="calc-btn clear" onclick="clearDisplay()">C</button>
+                <button class="calc-btn clear" onclick="deleteLast()">⌫</button>
+                <button class="calc-btn operator" onclick="appendToDisplay('/')">/</button>
+                <button class="calc-btn operator" onclick="appendToDisplay('*')">×</button>
+                
+                <button class="calc-btn number" onclick="appendToDisplay('7')">7</button>
+                <button class="calc-btn number" onclick="appendToDisplay('8')">8</button>
+                <button class="calc-btn number" onclick="appendToDisplay('9')">9</button>
+                <button class="calc-btn operator" onclick="appendToDisplay('-')">-</button>
+                
+                <button class="calc-btn number" onclick="appendToDisplay('4')">4</button>
+                <button class="calc-btn number" onclick="appendToDisplay('5')">5</button>
+                <button class="calc-btn number" onclick="appendToDisplay('6')">6</button>
+                <button class="calc-btn operator" onclick="appendToDisplay('+')">+</button>
+                
+                <button class="calc-btn number" onclick="appendToDisplay('1')">1</button>
+                <button class="calc-btn number" onclick="appendToDisplay('2')">2</button>
+                <button class="calc-btn number" onclick="appendToDisplay('3')">3</button>
+                <button class="calc-btn number" onclick="appendToDisplay('0')" style="grid-row: span 2;">0</button>
+                
+                <button class="calc-btn number" onclick="appendToDisplay('.')">.</button>
+                <button class="calc-btn equals" onclick="calculate()">=</button>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <a href="index.html" class="back-button">← Voltar ao Início</a>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/3b0c8f1d2e.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="calculadora.js"></script>
+</body>
+</html>
