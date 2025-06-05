@@ -1,6 +1,6 @@
 # 🌐 Website Pessoal - Eules Souza
 
-Uma aplicação web moderna e responsiva desenvolvida com React.js, apresentando um portfólio pessoal completo com sistema de temas, calculadora interativa e design profissional.
+Uma aplicação web moderna e responsiva desenvolvida com HTML, CSS e JS, apresentando um portfólio pessoal completo com sistema de temas, calculadora interativa e design profissional.
 
 ## ✨ Features Principais
 
@@ -32,7 +32,6 @@ Uma aplicação web moderna e responsiva desenvolvida com React.js, apresentando
 - ⚛️ **React.js**: Arquitetura baseada em componentes
 - 🚀 **Vanilla JS**: Código otimizado sem dependências desnecessárias
 - 🎯 **Lazy Loading**: Carregamento otimizado de recursos
-- 🔧 **Express.js**: Servidor de produção configurado
 
 ## 🛠️ Tecnologias Utilizadas
 
