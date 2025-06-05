@@ -113,12 +113,6 @@ npm start
 ```
 A aplicação será aberta em [http://localhost:3000](http://localhost:3000)
 
-**Servidor de produção:**
-```bash
-node server.js
-```
-Servidor estático disponível em [http://localhost:8080](http://localhost:8080)
-
 ### Estrutura do Projeto
 
 ```
