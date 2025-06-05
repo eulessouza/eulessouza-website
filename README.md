@@ -35,10 +35,10 @@ Uma aplicação web moderna e responsiva desenvolvida com HTML, CSS e JS, aprese
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Frontend**: React.js, HTML5, CSS3, JavaScript ES6+
+- **Frontend**: HTML5, CSS3, JavaScript ES6+
 - **Styling**: CSS Variables, Flexbox, CSS Grid
 - **Icons**: FontAwesome
-- **Server**: Express.js, Node.js
+- **Server**: Node.js
 - **Tools**: npm, Git
 
 ## 🌟 Destaques Técnicos
